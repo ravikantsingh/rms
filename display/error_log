@@ -1,0 +1,15 @@
+[28-Nov-2019 11:00:00 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function getOrderListDisplay() in /home/pizzapoint/public_html/display/inc/dashboardContent.php:23
+Stack trace:
+#0 /home/pizzapoint/public_html/display/inc/dashboard.php(23): include_once()
+#1 /home/pizzapoint/public_html/display/index.php(20): include_once('/home/pizzapoin...')
+#2 {main}
+  thrown in /home/pizzapoint/public_html/display/inc/dashboardContent.php on line 23
+[30-Nov-2019 13:51:18 Asia/Kolkata] PHP Warning:  include_once(./inc/displayHeader.php): failed to open stream: No such file or directory in /home/pizzapoint/public_html/display/index.php on line 6
+[30-Nov-2019 13:51:18 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './inc/displayHeader.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/pizzapoint/public_html/display/index.php on line 6
+[30-Nov-2019 13:51:30 Asia/Kolkata] PHP Warning:  include_once(./inc/displayHeader.php): failed to open stream: No such file or directory in /home/pizzapoint/public_html/display/index.php on line 6
+[30-Nov-2019 13:51:30 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './inc/displayHeader.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/pizzapoint/public_html/display/index.php on line 6
+[01-Dec-2019 12:54:55 Asia/Kolkata] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/pizzapoint/public_html/inc/scripts/sessionTimeout.php on line 5
+[01-Dec-2019 21:49:26 Asia/Kolkata] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/pizzapoint/public_html/inc/scripts/sessionTimeout.php on line 5
+[01-Dec-2019 21:49:35 Asia/Kolkata] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/pizzapoint/public_html/inc/scripts/sessionTimeout.php on line 5
+[01-Dec-2019 21:50:17 Asia/Kolkata] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/pizzapoint/public_html/inc/scripts/sessionTimeout.php on line 5
+[01-Dec-2019 22:11:22 Asia/Kolkata] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/pizzapoint/public_html/inc/scripts/sessionTimeout.php on line 5

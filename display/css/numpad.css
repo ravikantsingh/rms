@@ -1,0 +1,407 @@
+@charset "utf-8";
+/* CSS Document */
+
+table.adminlist {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #cfcfcf;
+	color: #666;
+}
+
+table.adminlist td,
+table.adminlist th {
+	padding: 4px;
+}
+
+table.adminlist td {padding-left: 8px;}
+
+table.adminlist thead th {
+	text-align: center;
+	background: #f1f1f1;
+	color: #666;
+	font-size:1.3em;
+	border-bottom: 1px solid #CCC;
+	border-left: 2px solid #fff;
+}
+
+table.adminlist thead th.left {
+	text-align: left;
+}
+
+table.adminlist thead a:hover {
+	text-decoration: none;
+}
+
+table.adminlist thead th img {
+	vertical-align: middle;
+	padding-left: 3px;
+}
+
+table.adminlist tbody th {
+	font-weight: bold;
+}
+
+table.adminlist tbody tr {
+	background-color: #fff;
+	text-align: left;
+}
+
+table.adminlist tbody tr.row0:hover td,
+table.adminlist tbody tr.row1:hover td	{
+	background-color: #e8f6fe;
+}
+
+table.adminlist tbody tr td {
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+table.adminlist tbody tr.row1 td {
+	background: #f0f0f0;
+	border-top: 1px solid #FFF;
+}
+
+table.adminlist tfoot tr {
+	text-align: center;
+	color: #333;
+}
+
+table.adminlist tfoot td,table.adminlist tfoot th {
+	text-align: center;
+	background: #f1f1f1;
+	color: #666;
+	font-size:1.3em;
+	border-bottom: 1px solid #CCC;
+	border-left: 2px solid #fff;
+}
+
+table.adminlist td.order {
+	text-align: center;
+	white-space: nowrap;
+	width: 200px;
+}
+
+table.adminlist td.order span {
+	float: left;
+	width: 20px;
+	text-align: center;
+	background-repeat: no-repeat;
+	height: 13px;
+}
+
+table.adminlist .pagination {
+	display: inline-block;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/* Tree indentation & nesting - Up to 10 levels deep so don't go crazy :) */
+table.adminlist td.indent-4 	{	padding-left: 4px;		}
+table.adminlist td.indent-19 	{	padding-left: 19px;		}
+table.adminlist td.indent-34 	{	padding-left: 34px;		}
+table.adminlist td.indent-49 	{	padding-left: 49px;		}
+table.adminlist td.indent-64 	{	padding-left: 64px;		}
+table.adminlist td.indent-79 	{	padding-left: 79px;		}
+table.adminlist td.indent-94 	{	padding-left: 94px;		}
+table.adminlist td.indent-109 	{	padding-left: 109px;	}
+table.adminlist td.indent-124 	{	padding-left: 124px;	}
+table.adminlist td.indent-139 	{	padding-left: 139px;	}
+
+table.adminlist tr td.btns a {
+	text-decoration: underline;
+}
+
+
+
+/* -- TABLE STYLES ----------------------------- */
+
+div#element-box div.m form table.adminlist tr td a {
+	font-size: 1.1em;
+}
+
+div#element-box div.m form table.adminlist tr td div.button2-left.smallsub a {
+	font-size: 1em;
+}
+
+div#element-box div.m form table.adminlist tr td p.smallsub a,
+div#element-box div.m div.pane-slider form table.adminlist a {
+	font-size: 1em;
+}
+
+p.smallsub {
+	margin: 3px 0 0;
+}
+
+p.smallsub span {
+	color: #a0a0a0;
+}
+
+.pagination div.limit {
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 10px;
+}
+
+.pagination div.limit select#limit {
+	width: 50px;
+}
+
+p.mod-purge-instruct {
+	margin-top: 20px;
+}
+
+div.checkin-tick {
+	background: url(../images/admin/tick.png) 20px 50% no-repeat;
+	text-indent: -9999px;
+}
+
+td.left,
+th.left {
+	text-align: left;
+}
+
+td.center,
+th.center,
+.center {
+	text-align: center;
+	float: none;
+}
+
+td.center img,
+th.center img {
+	float: none;
+}
+
+td.right,th.right {
+	text-align: right;
+}
+
+.container {
+	clear: both;
+	text-decoration: none;
+}
+
+* html .container {
+	display: inline-block;
+}
+
+table.admintable th,
+table.admintable td {
+	font-size: 1.091em;
+}
+
+table#global-checkin td {
+	font-size: 1.182em;
+}
+
+table#global-checkin td.active {
+	background-color: #E8F6FE !important;
+}
+
+table#global-checkin tbody tr.row0:hover td {
+	background-color: #FFF;
+}
+
+table#global-checkin tbody tr.row1:hover td {
+	background-color: #F0F0F0;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.categoryTable{
+}
+.categoryTable tr{
+	    background-color: #fc8f30;
+}
+.categoryTable tr td{
+	    padding-right: 15px;
+    font-size: 24px;
+    font-family: cursive;
+    color: #fff;
+    text-shadow: 1px 1px 1px #666;
+	    border-radius: 9px;
+		
+		cursor:pointer;
+		padding-top:3px;
+		padding-bottom:3px;
+}
+.productTable{
+	display:none;
+}
+.productTable tr{
+	    
+}
+.productTable tr td{
+	    padding-right: 15px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #fff;
+    text-shadow: 1px 1px 1px #666;
+	    border-radius: 9px;
+		background-color: #00f;
+		cursor:pointer;
+		padding-top:5px;
+		padding-bottom:5px;
+}
+.productTable tr th{
+	    padding-right: 15px;
+    font-size: 18px;
+    font-family: cursive;
+    color: #fff;
+    text-shadow: 1px 1px 1px #666;
+	    border-radius: 9px;
+		background-color: crimson;
+		
+}
+#cart{
+	background:#FFF;
+	font-size: 14px;
+}
+#cart thead tr th{
+	background-color:#CCF;
+	border:1px solid #FFF;
+	}
+.numPad{
+	
+}
+.numPad tr td{
+	background: beige;
+    border: 1px solid #FFF;
+    cursor: pointer;
+	font-size:35px;
+	font-weight:bold;
+    color: #a6a6a6;
+    text-shadow: 1px 1px 1px #000;
+	vertical-align:middle;
+}
+.numPadTop td, .numPadTop input{
+	font-size:18px !important;
+}
+#numPadShow{
+    background-color: #fc8f30;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    padding: 5px;
+    padding-left:0px;
+    cursor: pointer;
+}
+#leftSideTop tr td{
+    background-color: #fc8f30;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    padding: 5px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+#cashPadTop tr td, #numPadOK{
+    background-color: #c5c4c4;
+    color: white;
+    text-shadow: 1px 1px 1px #9c8a8a;
+    /* padding: 5px 0px; */
+    padding-left: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 26px;
+    border: 3px solid #fff;
+}
+#numPadOK{
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+    width: 33%;
+    border-radius: 0;
+}
+.note tr td{
+	background: #f3f3f3;
+    font-size: 32px;
+    color: #666666;
+    /* border-bottom: 1px solid #ccc; */
+    text-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    border-top: 8px solid #fff;
+    padding: 8px 0;
+    border-radius: 10px;
+}
+#dyneDelivery1 td, #dyneDelivery2 td, #cashCredit td, #order td{
+	        background: #FF9800;
+    font-size: 36px;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+	cursor:pointer;
+}
+#dyneDelivery1, #dyneDelivery2{
+	display:none;
+	font-size:28px;
+}
+#dyneDelivery1 td, #dyneDelivery2 td{
+	font-size: 36px;
+    background: #fff;
+    color: blue;
+    text-shadow: -2px 2px 2px #333;
+    box-shadow: -2px 2px 5px;
+}
+#cashPadInput{
+	        width: 98%;
+    background: black;
+    color: white;
+    font-size: 36px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    text-align: right;
+}
+#orderNumber td{
+	background: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+#orderIdTop td{
+	    background: darkslategrey;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;	
+}
+#cart tfoot tr td{
+	    background: #4f606f;
+    font-size: 20px;
+    color: white;
+	text-shadow: 1px 1px 1px #bbb;
+}
+#cart tfoot tr td input{
+	        border: 0px;
+    font-size: 24px;
+    width: 100%;
+    background: #ff9800;
+    color: white;
+    text-shadow: 1px 1px 1px #666;
+}
+#customerDetail tr td, #customerDetail1 tr td{
+	font-size:16px;
+    font-family: cursive;
+	
+}
+#customerDetail tr td input, #customerDetail1 tr td input{
+	font-size: 14px;
+    border: 0px solid;
+    font-family: cursive;
+    background: brown;
+    color: #fff;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+#logout_id input{
+	margin:3px;
+	
+}
+#orderStatus table td{
+	cursor:pointer;
+}
+.ok{
+	background:#CCC; color:#000; font-size:16px;-webkit-border-radius: 8px;	-moz-border-radius:8px;border-radius: 8px;-webkit-box-shadow: -5px 5px 10px rgba(0, 0, 0, 1);	-moz-box-shadow: -5px 5px 10px rgba(0, 0, 0, 1);	box-shadow: -5px 5px 10px rgba(0, 0, 0, 1);
+	margin-left:5px;
+}

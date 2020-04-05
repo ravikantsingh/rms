@@ -1,2 +1,2 @@
 # rms
- Restaurants MAnagement System
+ Restaurants Management System

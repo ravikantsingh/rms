@@ -1,0 +1,44 @@
+[25-Nov-2019 12:35:42 Asia/Kolkata] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/pizzapoint/public_html/inc/scripts/sessionTimeout.php on line 5
+[01-Dec-2019 12:55:55 Asia/Kolkata] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/pizzapoint/public_html/inc/scripts/sessionTimeout.php on line 5
+[01-Dec-2019 17:09:04 Asia/Kolkata] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/pizzapoint/public_html/inc/scripts/sessionTimeout.php on line 5
+[03-Dec-2019 01:18:40 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function markAsPreparedTable(), 2 passed in /home/pizzapoint/public_html/cook/inc/dashboardContent.php on line 9 and exactly 4 expected in /home/pizzapoint/public_html/inc/scripts/functions.php:1647
+Stack trace:
+#0 /home/pizzapoint/public_html/cook/inc/dashboardContent.php(9): markAsPreparedTable(Object(PDO), 'LOG4-A5VREI-3XW')
+#1 /home/pizzapoint/public_html/cook/inc/dashboard.php(23): include_once('/home/pizzapoin...')
+#2 /home/pizzapoint/public_html/cook/index.php(20): include_once('/home/pizzapoin...')
+#3 {main}
+  thrown in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1647
+[03-Dec-2019 01:18:46 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function markAsPreparedTable(), 2 passed in /home/pizzapoint/public_html/cook/inc/dashboardContent.php on line 9 and exactly 4 expected in /home/pizzapoint/public_html/inc/scripts/functions.php:1647
+Stack trace:
+#0 /home/pizzapoint/public_html/cook/inc/dashboardContent.php(9): markAsPreparedTable(Object(PDO), 'LOG4-A5VREI-3XW')
+#1 /home/pizzapoint/public_html/cook/inc/dashboard.php(23): include_once('/home/pizzapoin...')
+#2 /home/pizzapoint/public_html/cook/index.php(20): include_once('/home/pizzapoin...')
+#3 {main}
+  thrown in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1647
+[03-Dec-2019 01:19:08 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function markAsPreparedTable(), 2 passed in /home/pizzapoint/public_html/cook/inc/dashboardContent.php on line 9 and exactly 4 expected in /home/pizzapoint/public_html/inc/scripts/functions.php:1647
+Stack trace:
+#0 /home/pizzapoint/public_html/cook/inc/dashboardContent.php(9): markAsPreparedTable(Object(PDO), 'LOG4-A5VREI-3XW')
+#1 /home/pizzapoint/public_html/cook/inc/dashboard.php(23): include_once('/home/pizzapoin...')
+#2 /home/pizzapoint/public_html/cook/index.php(20): include_once('/home/pizzapoin...')
+#3 {main}
+  thrown in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1647
+[03-Dec-2019 01:19:12 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function markAsPreparedTable(), 2 passed in /home/pizzapoint/public_html/cook/inc/dashboardContent.php on line 9 and exactly 4 expected in /home/pizzapoint/public_html/inc/scripts/functions.php:1647
+Stack trace:
+#0 /home/pizzapoint/public_html/cook/inc/dashboardContent.php(9): markAsPreparedTable(Object(PDO), 'LOG4-A5VREI-3XW')
+#1 /home/pizzapoint/public_html/cook/inc/dashboard.php(23): include_once('/home/pizzapoin...')
+#2 /home/pizzapoint/public_html/cook/index.php(20): include_once('/home/pizzapoin...')
+#3 {main}
+  thrown in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1647
+[03-Dec-2019 01:25:45 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1613
+[03-Dec-2019 01:25:45 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1624
+[03-Dec-2019 01:25:45 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1613
+[03-Dec-2019 01:25:45 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1624
+[03-Dec-2019 01:26:19 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1613
+[03-Dec-2019 01:26:19 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1624
+[03-Dec-2019 01:26:19 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1613
+[03-Dec-2019 01:26:19 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1624
+[03-Dec-2019 01:26:53 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1613
+[03-Dec-2019 01:26:53 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1624
+[03-Dec-2019 01:26:53 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1613
+[03-Dec-2019 01:26:53 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/pizzapoint/public_html/inc/scripts/functions.php on line 1624
+[07-Dec-2019 12:41:52 Asia/Kolkata] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/pizzapoint/public_html/inc/scripts/sessionTimeout.php on line 5
