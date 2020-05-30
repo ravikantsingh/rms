@@ -13,7 +13,7 @@ if( isset( $_SESSION['msg'] ) ){
   unset( $_SESSION['msg'] );
   unset( $_SESSION['msg-status'] );
 }
-/////////////////////////////////////////
+///////////////////////////////////////
 $date=date('Y-m-d H:i:s');
 
 $option = (isset($_GET['option']) && !empty($_GET['option'])) ? trimSpecialCharacters(trim($_GET['option'])) : 'login';
